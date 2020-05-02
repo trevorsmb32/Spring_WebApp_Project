@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:webflow-config="http://www.springframework.org/schema/webflow-config"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans.xsd 
+       http://www.springframework.org/schema/security 
+       http://www.springframework.org/schema/security/spring-security.xsd 
+       http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans.xsd 
+       http://www.springframework.org/schema/security 
+       http://www.springframework.org/schema/security/spring-security.xsd 
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/tx 
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+	<mvc:annotation-driven></mvc:annotation-driven>
+
+	 <tx:annotation-driven />
+	
+
+	<context:component-scan base-package="com.emusicstore"></context:component-scan>
+	<bean id="LoginUserDetailsServiceImpl" class="com.emusicstore.serviceImpl.LoginUserDetailsServiceImpl"/> 
+	
+	<!--<bean id="LoginUserDetailsServiceImpl" class="com.emusicstore.serviceImpl.LoginUserDetailsServiceImpl"/> 
+	  	<bean id="CustomerService" class="com.emusicstore.daoImpl.CustomerServiceImpl"/> -->
+
+
+	<security:http auto-config="true" use-expressions="true">
+		<security:intercept-url pattern="/login_test"
+			access="permitAll" />
+		<security:intercept-url pattern="/logout"
+			access="permitAll" />
+		<security:intercept-url pattern="/accessdenied"
+			access="permitAll" />
+		<security:intercept-url pattern="/productList"
+			access="permitAll" />
+		<!-- <security:intercept-url pattern="/**" access="permitAll" /> -->
+		<security:intercept-url pattern="/admin/**"
+			access="hasRole('ROLE_ADMIN')" />
+		<security:intercept-url
+			pattern="/shoppingCart/checkOut" access="hasRole('ROLE_USER')" />
+		<security:form-login login-page="/login_test"
+			login-processing-url="/j_spring_security_check"
+			authentication-failure-url="/accessdenied" />
+		<security:logout logout-success-url="/logout" />
+	</security:http>
+
+
+	<security:authentication-manager>
+		<security:authentication-provider
+			user-service-ref="LoginUserDetailsServiceImpl" />
+	</security:authentication-manager>
+
+	<!-- <security:authentication-manager alias="authenticationManager"> <security:authentication-provider> 
+		<security:user-service> <security:user name="lokesh" password="password" 
+		authorities="ROLE_USER" /> </security:user-service> </security:authentication-provider> 
+		</security:authentication-manager> -->
+
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName"
+			value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/mydb" />
+		<property name="username" value="root" />
+		<property name="password" value="t3l3com" />
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+		<property name="packagesToScan">
+			<list>
+				<value>com.emusicstore</value>
+			</list>
+		</property>
+	</bean>
+
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="1024000" />
+	</bean>
+
+</beans>

@@ -1,0 +1,259 @@
+2018-04-16 20:50:19,344 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 20:50:19,401 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 20:50:19,421 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 20:50:19,429 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 20:50:19,553 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 20:50:19,555 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 20:50:19,682 +0100 [main] ERROR (HibernateUtil.java:30) - Initial SessionFactory creation failed.org.hibernate.HibernateException: Could not parse configuration: hibernate.cfg.xml
+2018-04-16 20:53:08,200 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 20:53:08,270 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 20:53:08,291 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 20:53:08,299 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 20:53:08,405 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 20:53:08,406 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 20:53:08,633 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 20:53:08,648 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 20:53:09,253 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 20:53:09,292 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 20:53:09,341 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 20:53:09,343 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 20:53:09,344 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 20:53:09,351 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 20:53:10,712 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 20:53:11,102 +0100 [main] ERROR (HibernateUtil.java:30) - Initial SessionFactory creation failed.org.hibernate.AnnotationException: No identifier specified for entity: com.pojo.Admin
+2018-04-16 21:08:33,732 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:08:33,826 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:08:33,857 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:08:33,872 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:08:33,998 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:08:33,999 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:08:34,338 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:08:34,339 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:08:34,884 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:08:34,912 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:08:34,945 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:08:34,947 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:08:34,948 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:08:34,954 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:08:36,365 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:08:36,992 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:08:37,026 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:08:37,214 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:08:37,853 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:08:39,676 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:09:42,885 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:09:42,937 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:09:42,957 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:09:42,964 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:09:43,076 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:09:43,076 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:09:43,381 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:09:43,381 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:09:43,940 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:09:43,969 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:09:44,005 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:09:44,007 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:09:44,008 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:09:44,013 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:09:45,114 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:09:45,548 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:09:45,562 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:09:45,683 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:09:46,203 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:09:47,999 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:10:35,915 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:10:35,954 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:10:35,970 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:10:35,978 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:10:36,075 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:10:36,075 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:10:36,272 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:10:36,274 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:10:36,564 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:10:36,585 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:10:36,610 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:10:36,613 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:10:36,615 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:10:36,619 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:10:37,637 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:10:38,132 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:10:38,150 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:10:38,259 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:10:38,739 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:10:39,950 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:15:11,308 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:15:11,360 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:15:11,374 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:15:11,382 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:15:11,510 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:15:11,511 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:15:11,754 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:15:11,755 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:15:12,239 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:15:12,268 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:15:12,309 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:15:12,311 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:15:12,312 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:15:12,318 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:15:13,636 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:15:14,228 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:15:14,256 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:15:14,431 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:15:14,942 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:15:16,490 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:24:17,111 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:24:17,178 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:24:17,198 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:24:17,206 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:24:17,335 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:24:17,337 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:24:17,579 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:24:17,580 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:24:18,051 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:24:18,082 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:24:18,111 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:24:18,113 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:24:18,114 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:24:18,119 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:24:19,085 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:24:19,499 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:24:19,522 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:24:19,643 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:24:20,116 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:24:21,534 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:24:22,272 +0100 [main] INFO  (HibernateLog4jExample.java:37) - List of Employees::Trevorsmb@gmail.com,Trevorsmb@gmail.com
+2018-04-16 21:24:22,289 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:24:22,295 +0100 [main] INFO  (HibernateLog4jExample.java:42) - DONE
+2018-04-16 21:28:47,661 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:28:47,731 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:28:47,748 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:28:47,756 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:28:47,947 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:28:47,948 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:28:48,223 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:28:48,223 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:28:48,735 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:28:48,760 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:28:48,790 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:28:48,793 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:28:48,794 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:28:48,799 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:28:49,933 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:28:50,376 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:28:50,400 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:28:50,536 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:28:51,066 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:28:53,039 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:28:53,865 +0100 [main] INFO  (HibernateLog4jExample.java:37) - List of Employees::Trevorsmb@gmail.com,Trevorsmb@gmail.com
+2018-04-16 21:28:53,884 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:28:53,888 +0100 [main] INFO  (HibernateLog4jExample.java:43) - DONE
+2018-04-16 21:32:44,932 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:32:44,981 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:32:45,000 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:32:45,009 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:32:45,132 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:32:45,133 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:32:45,407 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:32:45,409 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:32:46,058 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:32:46,110 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:32:46,147 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:32:46,149 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:32:46,150 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:32:46,155 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:32:47,158 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:32:47,595 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:32:47,614 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:32:47,747 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:32:48,257 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:32:49,768 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:32:50,654 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:32:50,659 +0100 [main] INFO  (HibernateLog4jExample.java:43) - DONE
+2018-04-16 21:46:35,984 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:46:36,020 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:46:36,031 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:46:36,036 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:46:36,130 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:46:36,130 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:46:36,302 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:46:36,303 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:46:36,687 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:46:36,713 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:46:36,744 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:46:36,745 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:46:36,746 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:46:36,753 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:46:37,531 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:46:37,884 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:46:37,901 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:46:38,020 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:46:38,471 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:46:39,802 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:46:40,566 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:46:40,569 +0100 [main] INFO  (HibernateLog4jExample.java:43) - DONE
+2018-04-16 21:49:54,537 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:49:54,592 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:49:54,608 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:49:54,616 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:49:54,731 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:49:54,732 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:49:54,986 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:49:54,987 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:49:55,451 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:49:55,480 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:49:55,514 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:49:55,516 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:49:55,518 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:49:55,524 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:49:56,813 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:49:57,484 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:49:57,508 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:49:57,677 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:49:58,248 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:49:59,965 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:50:00,890 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:50:00,896 +0100 [main] INFO  (HibernateLog4jExample.java:43) - DONE
+2018-04-16 21:51:00,535 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 21:51:00,571 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 21:51:00,585 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 21:51:00,590 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 21:51:00,679 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 21:51:00,680 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 21:51:00,851 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 21:51:00,851 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 21:51:01,261 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 21:51:01,292 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 21:51:01,327 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:51:01,329 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 21:51:01,329 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 21:51:01,335 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 21:51:02,175 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 21:51:02,564 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 21:51:02,579 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 21:51:02,684 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 21:51:03,117 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 21:51:04,562 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 21:51:05,380 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 21:51:05,384 +0100 [main] INFO  (HibernateLog4jExample.java:43) - DONE
+2018-04-16 22:00:55,756 +0100 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-16 22:00:55,788 +0100 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-16 22:00:55,798 +0100 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2018-04-16 22:00:55,804 +0100 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2018-04-16 22:00:55,866 +0100 [main] INFO  (Configuration.java:2075) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2018-04-16 22:00:55,867 +0100 [main] INFO  (Configuration.java:2094) - HHH000040: Configuration resource: hibernate.cfg.xml
+2018-04-16 22:00:56,015 +0100 [main] INFO  (Configuration.java:2216) - HHH000041: Configured SessionFactory: null
+2018-04-16 22:00:56,018 +0100 [main] INFO  (HibernateUtil.java:20) - Hibernate Configuration loaded
+2018-04-16 22:00:56,367 +0100 [main] INFO  (HibernateUtil.java:23) - Hibernate serviceRegistry created
+2018-04-16 22:00:56,410 +0100 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-04-16 22:00:56,443 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 22:00:56,444 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2018-04-16 22:00:56,444 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2018-04-16 22:00:56,447 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-04-16 22:00:57,240 +0100 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-04-16 22:00:57,602 +0100 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-16 22:00:57,618 +0100 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 22:00:57,727 +0100 [main] INFO  (Version.java:27) - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-16 22:00:58,118 +0100 [main] INFO  (Version.java:26) - HSEARCH000034: Hibernate Search 5.0.1.Final
+2018-04-16 22:00:59,362 +0100 [main] WARN  (ConfigContext.java:240) - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2018-04-16 22:01:00,187 +0100 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb]
+2018-04-16 22:01:00,191 +0100 [main] INFO  (HibernateLog4jExample.java:43) - DONE
